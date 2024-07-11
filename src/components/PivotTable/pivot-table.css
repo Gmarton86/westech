@@ -1,0 +1,52 @@
+/* Clear Sorting Button Styling */
+.clear-button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.clear-button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+table.pivot-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+table.pivot-table thead {
+  background-color: #f2f2f2;
+}
+
+table.pivot-table th,
+table.pivot-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table.pivot-table th {
+  cursor: pointer;
+  position: relative;
+}
+
+table.pivot-table th:hover {
+  background-color: #f1f1f1;
+}
+
+table.pivot-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table.pivot-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
